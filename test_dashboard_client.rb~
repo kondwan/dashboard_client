@@ -42,7 +42,7 @@ class TestDashboardClient < Test::Unit::TestCase
     assert_equal(nil, DashboardClient.adress(nil))
     assert_equal(nil, DashboardClient.adress(''))
   end
-  #this one we can test the mac address
+  
   def test_address
      
     address_text = " 00:1a:80:f4:50:57  inet addr:169.254.38.57  Bcast:169.254.255.255  Mask:255.255.0.0 "
