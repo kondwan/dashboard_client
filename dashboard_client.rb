@@ -1,3 +1,4 @@
+#Code for dashboard_client
 class DashboardClient
 
   # Returns total RAM available to the 
